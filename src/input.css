@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.br-2.animado{
+    opacity: 0;
+}
+
+.br-1.animado{
+    transform: rotate(45deg) translate(9px,8px);
+    transform-origin: 0% 100%;   
+}
+
+.br-3.animado{
+    transform: rotate(-45deg) translate(-6px,8px);
+    transform-origin: 0% 100%;   
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    background-color: inherit; /* Asegúrate de que el fondo del header sea visible */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añade una sombra para mejor visibilidad */
+}
